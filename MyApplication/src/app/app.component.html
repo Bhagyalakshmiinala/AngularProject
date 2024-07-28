@@ -23,3 +23,11 @@
   {{value.name}}
 </div>
 </h4>
+
+<br>
+
+<div [ngSwitch]= "checkName">
+  <div *ngSwitchCase="'bhagyalakshmi'"> This is bhagyalakshmi</div>
+  <div *ngSwitchCase="'venkat'"> This is venkat</div>
+
+</div>
