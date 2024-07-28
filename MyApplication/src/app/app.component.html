@@ -5,15 +5,23 @@
 <button (click)="onSubmit()">Submit</button>
 
 <h1 class="OnlineStatus">Online</h1>
+
+<h1>Implementation of ngFor using array values</h1>
 <h3 *ngFor="let item of arrlist">
 {{item}}
 </h3>
 <br>
+<br>
 
+<h1>Implementation of ngFor using array object</h1>
 <h3 *ngFor="let value of arrvalue">
   {{value.name}}
   </h3>
   <br>
+  <br>
+
+  <h1>Implementation of ngIf using array object</h1>
+
 <h4 *ngFor="let value of arrvalue">
 <div *ngIf="value.age === 25 ">
   {{value.age}}
@@ -26,6 +34,10 @@
 
 <br>
 
+<br>
+
+<h1>Implementation of ngSwitch</h1>
+
 <div [ngSwitch]= "checkName">
   <div *ngSwitchCase="'bhagyalakshmi'"> This is bhagyalakshmi</div>
   <div *ngSwitchCase="'venkat'"> This is venkat</div>
@@ -34,6 +46,11 @@
 
 <br>
 
+<br>
+
+<h1>Implementation of ngclass using condition</h1>
+
 <div [ngClass]="checkValue === 'Bhagyalakshmi' ? 'OnlineStatus' : 'OfflineStatus'"> 
   Status Checked
 </div>
+
