@@ -36,5 +36,7 @@ arrvalue = [
 
 ]
 
-checkName = 'bhagyalakshmi'
+checkName = 'bhagyalakshmi';
+checkValue = 'Bhagyalakshmi';
+checkStatus = 'OfflineStatus';
 }

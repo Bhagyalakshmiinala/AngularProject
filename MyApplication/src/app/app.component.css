@@ -1,6 +1,8 @@
 .OnlineStatus {
     color:green;
+    width: 50px;
 }
 .OfflineStatus {
     color:red;
+    width: 50px;
 }
