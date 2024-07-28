@@ -8,7 +8,18 @@
 <h3 *ngFor="let item of arrlist">
 {{item}}
 </h3>
+<br>
 
+<h3 *ngFor="let value of arrvalue">
+  {{value.name}}
+  </h3>
+  <br>
 <h4 *ngFor="let value of arrvalue">
-{{value.name}}
+<div *ngIf="value.age === 25 ">
+  {{value.age}}
+</div>
+<br>
+<div *ngIf="value.name === 'lakshmi' ">
+  {{value.name}}
+</div>
 </h4>
