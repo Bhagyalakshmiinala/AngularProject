@@ -39,4 +39,14 @@ arrvalue = [
 checkName = 'bhagyalakshmi';
 checkValue = 'Bhagyalakshmi';
 checkStatus = 'OfflineStatus';
+
+checkStyle = true;
+divStyles={
+  'color' : 'green'
+}
+
+divStyle={
+  'color' : 'red'
+}
+
 }
