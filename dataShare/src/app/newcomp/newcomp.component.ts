@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-newcomp',
@@ -8,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './newcomp.component.css'
 })
 export class NewcompComponent {
+@Input() childtitle:string
 
 }
