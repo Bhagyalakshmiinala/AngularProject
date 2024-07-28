@@ -1,2 +1,14 @@
 <p> {{title}}</p>
-<input placeholder="placeholderValue">
+<p>{{objValue}}</p>
+<input placeholder="placeholderValue" [(ngModel)]="objValue">
+
+<button (click)="onSubmit()">Submit</button>
+
+<h1 class="OnlineStatus">Online</h1>
+<h3 *ngFor="let item of arrlist">
+{{item}}
+</h3>
+
+<h4 *ngFor="let value of arrvalue">
+{{value.name}}
+</h4>
